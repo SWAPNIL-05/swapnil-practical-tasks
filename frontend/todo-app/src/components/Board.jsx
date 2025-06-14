@@ -209,7 +209,7 @@ const Board = () => {
             </div>
 
             <DragDropContext onDragEnd={handleDragEnd}>
-              <div className="flex space-x-4 mt-6 overflow-x-auto">
+              <div className="flex space-x-4 mt-6 justify-center overflow-x-auto">
                 {columns.map((column) => (
                   <Column
                     key={column._id}

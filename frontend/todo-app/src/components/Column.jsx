@@ -43,7 +43,7 @@ const Column = ({ column, tasks, onDeleteTask }) => {
     setShowForm(false);
   };
   return (
-    <div className="bg-gray-200 rounded-lg shadow-md flex-shrink-0 p-4 w-64 mr-4">
+    <div className="bg-gray-200 rounded-lg shadow-md flex-shrink-0 p-4 w-82 mr-4">
       <h3 className="text-lg font-semibold mb-4">{column.title}</h3>
       {error && (
         <div className="mb-4 text-red-500 bg-red-100 p-3 rounded">{error}</div>
